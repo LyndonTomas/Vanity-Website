@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DLS - CSB</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/thumb/a/af/DLSCSB_seal.svg/640px-DLSCSB_seal.svg.png">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+      /* Custom default button */
+      .btn-secondary,
+      .btn-secondary:hover,
+      .btn-secondary:focus {
+        color: #333;
+        text-shadow: none; /* Prevent inheritance from `body` */
+      }
+
+      .col{
+        margin-right: 30px;
+      }
+
+      #main-content{
+        background-color: rgba(0, 0, 0, .5);
+        border-radius: 25px;
+        margin-top: 30%;
+        width: 40rem;
+        place-items: center;
+        align-items: center;
+      }
+
+      #main-content h1{
+          margin-bottom: 1em;
+      }
+
+      .card-container{
+        display: flex;
+        flex-direction: row;
+      }
+
+      body {
+        background-image: url("https://i.ibb.co/2Z0xPx0/school2.png");
+        overflow: hidden;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+
+      .cover-container {
+        max-width: 42em;
+      }
+
+      .nav-masthead .nav-link {
+        padding: .25rem 0;
+        font-weight: 700;
+        color: rgba(255, 255, 255, .5);
+        background-color: transparent;
+        border-bottom: .25rem solid transparent;
+      }
+
+      .nav-masthead .nav-link:hover,
+      .nav-masthead .nav-link:focus {
+        border-bottom-color: rgba(255, 255, 255, .75);
+      }
+
+      .nav-masthead .nav-link + .nav-link {
+        margin-left: 1rem;
+      }
+
+      .nav-masthead .active {
+        color: #fff;
+        border-bottom-color: #fff;
+      }
+
+      @media (max-width: 400px) {
+
+        .card-container{
+        display: block;
+        }
+        
+        #main-content{
+        background-color: rgba(0, 0, 0, .5);
+        border-radius: 25px;
+        margin-top: 2%;
+        width: 20em;
+        place-items: center;
+        align-items: center;
+        margin-bottom: 1em;
+        }
+        
+        #main-content h1{
+          margin-bottom: 0em;
+        }
+
+
+
+        footer{
+          place-items: center;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    </style>
+
+  </head>
+  <body class="d-flex h-100 text-center text-white bg-dark">
+    
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto">
+    <div>
+      <h3 class="float-md-start mb-0">College of Saint Benilde</h3>
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link active" aria-current="page" href="https://www.benilde.edu.ph/admissions.html" target="_blank">Campus</a>
+        <a class="nav-link" href="https://zoom.us/" target="_blank">Zoom</a>
+        <a class="nav-link" href="https://raksoct.com/" target="_blank">Rakso CT</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="px-3">
+    <h1>Zoom Video Conference</h1>
+    <div class="card-container">
+      <div class="row">
+        <div class="col">
+          <p>
+            <a href="/join" class="btn btn-lg btn-light" target="_blank">Join</a>
+          </p>
+          <p>Connect to a meeting in progress.</p>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col">
+          <p>
+            <a href="/start/videomeeting" class="btn btn-lg btn-light" target="_blank">Host</a>
+          </p>
+          <p>Start a meeting.</p>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col">
+          <p>
+            <a href="/signin" class="btn btn-lg btn-light" target="_blank">Sign In</a>
+          </p>
+          <p>Configure your account.</p>
+        </div>
+      </div>
+    </div>
+
+    <center>
+      <span>
+        <p>Made with <a href="https://zoom.us/" class="text-white" >Zoom</a>.</p>
+      </span>
+    </center>
+  </main>
+
+  <footer class="mt-auto text-white-50">
+        <a class="btn btn-light" href="https://support.zoom.us/hc/en-us/sections/201728913-Joining-Starting">Getting Started</a>
+        <a class="btn btn-light" href="/download">Download Client</a>
+        <a class="btn btn-light" href="https://support.zoom.us/hc/en-us" target="_blank">Zoom Support</a>
+  </footer>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  </body>
+</html>
