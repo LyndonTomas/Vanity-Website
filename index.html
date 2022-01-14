@@ -75,6 +75,15 @@
       }
 
       @media (max-width: 400px) {
+        body{
+          padding: 0px;
+        }
+        header div h3{
+          font-size: 25px;
+        }
+        main h1{
+          font-size: 20px;
+        }
 
         .card-container{
         display: block;
@@ -84,22 +93,35 @@
         background-color: rgba(0, 0, 0, .5);
         border-radius: 25px;
         margin-top: 2%;
-        width: 20em;
+        width: 18em;
         place-items: center;
         align-items: center;
+        justify-content: center;
         margin-bottom: 1em;
+        margin-left: auto;
+        margin-right: auto;
         }
         
         #main-content h1{
-          margin-bottom: 0em;
+          margin-bottom: 1em;
+          margin-top: 1em;
+        }
+        
+        .col{
+        margin-right: 0px;
         }
 
-
+        .col p a{
+          font-size: 15px;
+        }
 
         footer{
-          place-items: center;
-          justify-content: center;
-          align-items: center;
+          display: flex;
+          flex-direction: column;
+        }
+        footer a{
+          margin-bottom: 1em;
+          padding: 0px;
         }
       }
     </style>
@@ -150,11 +172,11 @@
       </div>
     </div>
 
-    <center>
       <span>
-        <p>Made with <a href="https://zoom.us/" class="text-white" >Zoom</a>.</p>
+        <b>Made with <a href="https://zoom.us/" class="text-primary" >Zoom</a>.</b>
       </span>
-    </center>
+    <br>
+    <br>
   </main>
 
   <footer class="mt-auto text-white-50">
